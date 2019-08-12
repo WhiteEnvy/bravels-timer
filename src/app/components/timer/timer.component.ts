@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
     styleUrls: ['./timer.component.scss']
 })
 export class TimerComponent implements OnInit {
-    private endDate: any;
-    private date: any;
+    public endDate: any;
+    public date: any;
     constructor() {
         this.endDate = new Date(2019, 8, 1, 0, 0, 0);
         this.date = {
