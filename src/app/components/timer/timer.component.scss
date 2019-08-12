@@ -1,0 +1,139 @@
+#timer-page {
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  background-color: #2c5da2;
+  // background-image: url("../../../assets/img/full-bg.png");
+  background-size: contain;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  margin-top: 0;
+  top: 0;
+
+//   overflow: auto;
+}
+
+#bg-img{
+  position: absolute;
+  bottom: 0;
+  top: initial;
+  width: 100%;
+  height: 80%;
+  background-image: url('../../../assets/img/bg.png'); 
+  background-size: contain;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+div {
+  position: relative;
+  top: 5vw;
+}
+
+#logo {
+  // margin-bottom: 120px;
+}
+
+#logo img{
+  width: 150px;
+}
+
+#title {
+  margin-top: 100px;
+  font-size: 1.3em;
+  // top: 100px;
+  line-height: 35pt;
+  margin-bottom: 40px;
+}
+
+#timer {
+  font-size: 2.3em;
+  font-weight: bold;
+  margin-top: 30px;
+
+  // margin-bottom: 100px;
+}
+
+#contacts img {
+  height: 14px;
+}
+
+#contacts {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 120px;
+  height: max-content;
+  top: initial;
+  // top: 60px;
+  font-size: 1em;
+  text-transform: initial;
+}
+
+#contacts .row {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.social {
+  margin-top: 40px;
+  letter-spacing: 20px;
+}
+
+#contacts .social img {
+  height: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.container {
+  // margin-bottom: 80px;
+}
+
+@media only screen and (max-width: 1500px) {
+  #contacts{
+    bottom: 90px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #timer-page {
+    font-size: 0.8em;
+  }
+
+  div{
+    top: 10vw;
+  }
+
+  #title {
+    font-size: 1.05em;
+    line-height: 20pt;
+    margin-bottom: 20px;
+    margin-top: 80px;
+
+  }
+
+  #logo img{
+    width: 100px;
+  }
+
+  #contacts {
+    bottom: 50px;
+  }
+
+  #contacts img {
+    height: 12px;
+  }
+
+  .social{
+    margin-top: 20px;
+  }
+}
+
+

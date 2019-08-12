@@ -1,0 +1,25 @@
+<div id="timer-page">
+    <div id="bg-img"></div>
+    <div id="logo" class="container"><img src="../../../assets/img/logo.png" alt=""></div>
+    <div id="title" class="container">Have the brightest years of your life here. <br> Bravels. Be brave and join</div>
+    <div id="timer" class="container">
+        <span id="days">{{date.daysLeft}} </span>:
+        <span id="hours">{{date.hoursLeft}} </span>:
+        <span id="minutes">{{date.minutesLeft}} </span>:
+        <span id="seconds">{{date.secondsLeft}}</span>
+    </div>
+    <div id="contacts" class="container">
+        <div class="row">
+            <img src="../../../assets/img/phone.png">
+            080 033 0673
+        </div>
+        <div class="row">
+            <img src="../../../assets/img/email.png">
+            careers@bravels.com
+        </div>
+        <div class="row social">
+            <img src="../../../assets/img/facebook.png"  (click)="redirect('https://www.facebook.com/BravelsUkraine/')">
+            <img src="../../../assets/img/instagram.png" (click)="redirect('https://www.instagram.com/bravels_ukraine/')">
+        </div>
+    </div>
+</div>
